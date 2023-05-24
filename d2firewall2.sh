@@ -40,7 +40,7 @@ setup () {
   elif [ "$platform" == "xbox" ]; then
     reject_str="xboxpwid"
   elif [ "$platform" == "steam" ]; then
-    reject_str="xboxpwid"
+    reject_str="steamid"
   else
     reject_str="psn-4"
   fi
